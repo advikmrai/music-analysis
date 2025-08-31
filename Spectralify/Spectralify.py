@@ -1155,7 +1155,7 @@ def main():
         music_directory = sys.argv[1]
     else:
         # Default directory - change this to your music directory
-        music_directory = "C:\\Users\\sanji\\music-analysis\\Spectralify\\musicFolder"
+        music_directory = "/home/advil/audio/music-analysis/Spectralify/musicFolder"
     
     # Run the application
     app = SpectralifyApp(music_directory)
