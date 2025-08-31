@@ -37,3 +37,4 @@ except AttributeError:
 pattern.write('midi', fp='generated_music.mid')
 print("Generated music saved as generated_music.mid")
 pattern.show('text')
+
